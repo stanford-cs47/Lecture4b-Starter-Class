@@ -97,13 +97,6 @@ export default class App extends React.Component{
             onChangeText={text => this.onChangeText(text)}
             value={this.state.text}
           />
-          {/* 
-            3. Rewrite the following button to be a vector icon
-            that you can click to add a ToDo item
-
-            Hint: To make the vector icon clickable, see
-            TouchableOpacity 
-          */}
 
           <TouchableOpacity onPress={this.addTodo}>
             <AntDesign
