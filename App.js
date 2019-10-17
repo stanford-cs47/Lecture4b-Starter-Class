@@ -19,7 +19,6 @@ export default class App extends React.Component{
   // Here's what we will do step by step:
   // 1. Automatically add ToDo items by setting up an interval in componentDidMount 
   // 2. Stop the automatic addition of ToDo items in componentWillUnmount
-  // 3. 
 
   // NOTICE the two additions to our state! You do not have to use "count" in your
   // solution -- it's just there to help generate the "Item #___" ToDo item text.
@@ -38,10 +37,6 @@ export default class App extends React.Component{
   // Hint: Check out https://www.w3schools.com/jsref/met_win_setinterval.asp
   componentDidMount() {
     // Put your code for step 1 here!
-  }
-
-  componentWillUpdate(prevProps, prevState) {
-    // Put your code for step 3 here!
   }
 
   // 2. Clean up! When your component unmounts, you don't want your interval to
